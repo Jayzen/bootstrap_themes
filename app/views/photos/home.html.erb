@@ -1,0 +1,67 @@
+    <%= render 'photos/head' %>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                  <h1>Capture <span class="em-text">Life</span></h1>
+                  <p>A fun and easy way to capture and share moment in your life</p>
+                  <a href="#">
+                    <%= image_tag "photos/icon_app_store.png", class: "app-btn" %>
+                  </a>
+                  <a href="#">
+                    <%= image_tag "photos/icon_google_play.png", class: "app-bun" %>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <%= image_tag "photos/site_phone.png", class: "showcase-img" %> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <%=image_tag "photos/demo1.jpg", class: "demo" %>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in ipsum mauris. Vestibulum tempus consectetur ipsum, vel euismod est dictum sed.</p>
+                    <a href="#" class="btn btn-default">Read More</a>
+                </div>
+                <div class="col-md-4">
+                    <%=image_tag "photos/demo2.jpg", class: "demo" %>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in ipsum mauris. Vestibulum tempus consectetur ipsum, vel euismod est dictum sed.</p>
+                    <a href="#" class="btn btn-default">Read More</a>
+                </div>
+                <div class="col-md-4">
+                    <%=image_tag "photos/demo3.jpg", class: "demo" %>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in ipsum mauris. Vestibulum tempus consectetur ipsum, vel euismod est dictum sed.</p>
+                    <a href="#" class="btn btn-default">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h1>Gamma Features</h1>
+                    <ul>
+                        <li><i class="glyphicon glyphicon-ok">&nbsp;</i>Maecenas porttitor e</li>
+                        <li><i class="glyphicon glyphicon-ok">&nbsp;</i>ies bland</li>
+                        <li><i class="glyphicon glyphicon-ok">&nbsp;</i>et justo, ut ult</li>
+                        <li><i class="glyphicon glyphicon-ok">&nbsp;</i>Sed eu lorem ac </li>
+                        <li><i class="glyphicon glyphicon-ok">&nbsp;</i>Donec eget moll</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-md-offset-2">
+                  <%= image_tag "photos/logo.png", class: "big-logo" %>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <%= render 'photos/footer'%>
